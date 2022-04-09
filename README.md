@@ -16,7 +16,7 @@ An example training can be seen below
 --augment_with=w2v_embed \
 --how_many_aug=10000 \
 --augment_strategy=separate \
---prefix=w2v_embed_10k_albert'
+--prefix=w2v_embed_10k_albert`
 
 ## How to eval:
 
@@ -26,7 +26,7 @@ After training you could evaluate on dev set or test set using the trained model
 --trained_model_path=some_model_path.pth.tar \
 --data_path=pubmed_factoid_extracted_data_dev.p \
 --model_name=ktrapeznikov/albert-xlarge-v2-squad-v2 \
---transformer_size=2048'
+--transformer_size=2048`
 
 
 
