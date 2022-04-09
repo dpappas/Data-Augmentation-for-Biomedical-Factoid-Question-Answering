@@ -6,6 +6,8 @@ This repository includes the code to train and evaluate all models mentioned in 
 The data used in the paper can be found in the following webpage: 
 http://nlp.cs.aueb.gr/publications.html 
 
+After downloading the data you should unzip the file and change the paths in the `train.py` file 
+
 ## How to train:
 
 You could run python train.py --help to see all parameters.
@@ -32,6 +34,4 @@ After training you could evaluate on dev set or test set using the trained model
 --data_path=pubmed_factoid_extracted_data_test.p 
 --model_name=ktrapeznikov/albert-xlarge-v2-squad-v2 
 --transformer_size=2048`
-
-
 
