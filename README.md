@@ -3,6 +3,9 @@
 This repository includes the code to train and evaluate all models mentioned in the paper 
 "Data Augmentation for Biomedical Factoid Question Answering" presented in BIONLP 2022 workshop of ACL.
 
+The data used in the paper can be found in the following webpage: 
+http://nlp.cs.aueb.gr/publications.html 
+
 ## How to train:
 
 You could run python train.py --help to see all parameters.
