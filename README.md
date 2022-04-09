@@ -1,5 +1,7 @@
 # Data-Augmentation-for-Biomedical-Factoid-Question-Answering
 
+This repository includes the code to train and evaluate all models mentioned in the paper 
+"Data Augmentation for Biomedical Factoid Question Answering" presented in BIONLP 2022 workshop of ACL.
 
 ## How to train:
 
