@@ -22,7 +22,7 @@ An example training can be seen below
 
 After training you could evaluate on dev set or test set using the trained model.
 
-`python3.6 eval_albert_based_mlp.py \
+`python3.6 eval.py \
 --trained_model_path=some_model_path.pth.tar \
 --data_path=pubmed_factoid_extracted_data_dev.p \
 --model_name=ktrapeznikov/albert-xlarge-v2-squad-v2 \
