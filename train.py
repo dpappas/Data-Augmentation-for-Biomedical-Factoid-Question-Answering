@@ -424,7 +424,7 @@ def train_one(the_data):
                 target_E[e] = 1
         if (sum(target_B) == 0):
             continue
-        if (sum(target_E) == 1):
+        if (sum(target_E) == 0):
             continue
         ##########################################################
         begin_y     = y[0, -len(sent_ids):, 0]
@@ -504,7 +504,7 @@ def eval_one(the_data):
                     target_E[e] = 1
             if (sum(target_B) == 0):
                 continue
-            if (sum(target_E) == 1):
+            if (sum(target_E) == 0):
                 continue
             ##########################################################
             begin_y = y[0, -len(sent_ids):, 0]
