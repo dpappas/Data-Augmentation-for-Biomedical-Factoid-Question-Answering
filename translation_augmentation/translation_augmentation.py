@@ -29,7 +29,7 @@ for q, answers, context, _ in tqdm(d):
     print(len(new_created_data))
     ##################################################################################
 
-pickle.dump(new_created_data, open('/home/dpappas/bioasq_factoid/pubmed_factoid_translate_all_ion.p','wb'))
+pickle.dump(new_created_data, open('/home/dpappas/bioasq_factoid/pubmed_factoid_translate_all.p','wb'))
 
 
 
