@@ -15,13 +15,7 @@ with open('/home/dpappas/elk_ips.txt') as fp:
 es = Elasticsearch(cluster_ips, verify_certs=True, timeout=150, max_retries=10, retry_on_timeout=True)
 doc_index       = 'pubmed_abstracts_joint_0_1'
 
-exclude_phrases = [
-    'copyright',
-    'et al.',
-    'all rights reserved',
-    '?',
-    '__'
-]
+exclude_phrases = ['copyright', 'et al.', 'all rights reserved', '?', '__']
 
 all_questions   = []
 bod             = {
