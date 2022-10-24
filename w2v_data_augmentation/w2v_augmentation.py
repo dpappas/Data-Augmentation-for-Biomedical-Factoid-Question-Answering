@@ -12,7 +12,7 @@ bioclean_mod = lambda t: re.sub(
 ).split()
 
 w2v_bin_path    = '/home/dpappas/bioasq_all/pubmed2018_w2v_30D.bin'
-sws_path 		= '/home/dpappas/bioasq_all/stopwords.pkl'
+sws_path 		= 'stopwords.pkl'
 inpath  		= sys.argv[1]
 opath   		= sys.argv[2]
 
